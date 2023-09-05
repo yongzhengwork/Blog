@@ -3,11 +3,11 @@
   <title>aloneme</title>
   
   <subtitle>简单地活着, 肆意又精彩.</subtitle>
-  <link href="https://yongzhengwork.github.io/atom.xml" rel="self"/>
+  <link href="https://yongzhengwork.github.io/Hexo/atom.xml" rel="self"/>
   
-  <link href="https://yongzhengwork.github.io/"/>
+  <link href="https://yongzhengwork.github.io/Hexo/"/>
   <updated>2023-09-01T08:29:32.615Z</updated>
-  <id>https://yongzhengwork.github.io/</id>
+  <id>https://yongzhengwork.github.io/Hexo/</id>
   
   <author>
     <name>yz</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://yongzhengwork.github.io/posts/1243066711/"/>
-    <id>https://yongzhengwork.github.io/posts/1243066711/</id>
+    <link href="https://yongzhengwork.github.io/Hexo/posts/1243066711/"/>
+    <id>https://yongzhengwork.github.io/Hexo/posts/1243066711/</id>
     <published>2023-09-01T07:48:52.727Z</published>
     <updated>2023-09-01T08:29:32.615Z</updated>
     
@@ -38,8 +38,8 @@
   
   <entry>
     <title>Linux安装JDK</title>
-    <link href="https://yongzhengwork.github.io/posts/1441854962/"/>
-    <id>https://yongzhengwork.github.io/posts/1441854962/</id>
+    <link href="https://yongzhengwork.github.io/Hexo/posts/1441854962/"/>
+    <id>https://yongzhengwork.github.io/Hexo/posts/1441854962/</id>
     <published>2023-08-31T07:49:54.000Z</published>
     <updated>2023-09-01T08:50:46.804Z</updated>
     
@@ -54,19 +54,19 @@
     
     
     
-    <category term="Linux" scheme="https://yongzhengwork.github.io/categories/Linux/"/>
+    <category term="Linux" scheme="https://yongzhengwork.github.io/Hexo/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://yongzhengwork.github.io/tags/Linux/"/>
+    <category term="Linux" scheme="https://yongzhengwork.github.io/Hexo/tags/Linux/"/>
     
-    <category term="JDK" scheme="https://yongzhengwork.github.io/tags/JDK/"/>
+    <category term="JDK" scheme="https://yongzhengwork.github.io/Hexo/tags/JDK/"/>
     
   </entry>
   
   <entry>
     <title>Linux工具安装</title>
-    <link href="https://yongzhengwork.github.io/posts/90504101/"/>
-    <id>https://yongzhengwork.github.io/posts/90504101/</id>
+    <link href="https://yongzhengwork.github.io/Hexo/posts/90504101/"/>
+    <id>https://yongzhengwork.github.io/Hexo/posts/90504101/</id>
     <published>2023-08-31T07:48:37.000Z</published>
     <updated>2023-09-01T08:50:46.808Z</updated>
     
@@ -81,17 +81,17 @@
     
     
     
-    <category term="Linux" scheme="https://yongzhengwork.github.io/categories/Linux/"/>
+    <category term="Linux" scheme="https://yongzhengwork.github.io/Hexo/categories/Linux/"/>
     
     
-    <category term="Linux" scheme="https://yongzhengwork.github.io/tags/Linux/"/>
+    <category term="Linux" scheme="https://yongzhengwork.github.io/Hexo/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Hexo主题LiveForCode介绍</title>
-    <link href="https://yongzhengwork.github.io/posts/1112885395/"/>
-    <id>https://yongzhengwork.github.io/posts/1112885395/</id>
+    <link href="https://yongzhengwork.github.io/Hexo/posts/1112885395/"/>
+    <id>https://yongzhengwork.github.io/Hexo/posts/1112885395/</id>
     <published>2020-07-31T16:00:00.000Z</published>
     <updated>2023-07-04T16:09:32.000Z</updated>
     
@@ -102,17 +102,17 @@
     
     
     
-    <category term="Web" scheme="https://yongzhengwork.github.io/categories/Web/"/>
+    <category term="Web" scheme="https://yongzhengwork.github.io/Hexo/categories/Web/"/>
     
     
-    <category term="Hexo" scheme="https://yongzhengwork.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://yongzhengwork.github.io/Hexo/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://yongzhengwork.github.io/posts/1243066710/"/>
-    <id>https://yongzhengwork.github.io/posts/1243066710/</id>
+    <link href="https://yongzhengwork.github.io/Hexo/posts/1243066710/"/>
+    <id>https://yongzhengwork.github.io/Hexo/posts/1243066710/</id>
     <published>2019-12-31T16:00:00.000Z</published>
     <updated>2023-09-01T08:29:32.613Z</updated>
     
@@ -123,10 +123,10 @@
     
     
     
-    <category term="Web" scheme="https://yongzhengwork.github.io/categories/Web/"/>
+    <category term="Web" scheme="https://yongzhengwork.github.io/Hexo/categories/Web/"/>
     
     
-    <category term="Hexo" scheme="https://yongzhengwork.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://yongzhengwork.github.io/Hexo/tags/Hexo/"/>
     
   </entry>
   
