@@ -29,7 +29,7 @@
     <link type="text/css" rel="stylesheet" href="/css/code.css">
 
     <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="aloneme" type="application/atom+xml">
+<meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/Hexo/atom.xml" title="aloneme" type="application/atom+xml">
 </head>
 <body>
     <a id="cover"></a>
@@ -145,23 +145,23 @@
 <p>特别说明 使用这种方式需要已经安装 Hexo。<font color="red">不需要</font> 进行 Hexo 初始化，即 <code>hexo init</code> 。</p>
 </blockquote>
 <p>选择 <strong>Clone Template</strong>，点击下方的 <strong>Browse All Templates</strong>，然后找到 <strong>Hexo</strong> 模版。</p>
-<p><img src="/image/article/1112885395/template.png" alt="template"></p>
+<p><img src="/Hexo/image/article/1112885395/template.png" alt="template"></p>
 <p>选择模板后，进入到创建仓库界面，设置好仓库名称，然后点击 <strong>Create</strong> 即可。至于是否设置成私有仓库，根据个人意愿选择，目前 Github 的私有仓库是 <strong>免费</strong> 的。</p>
-<p><img src="/image/article/1112885395/repository.png" alt="repository"></p>
+<p><img src="/Hexo/image/article/1112885395/repository.png" alt="repository"></p>
 <p>等待 Vercel 部署完成，跳转到部署成功的页面。点击 <strong>Go to Dashboard</strong> 即可查看刚刚的项目。</p>
-<p><img src="/image/article/1112885395/congratulations.png" alt="congratulations"></p>
+<p><img src="/Hexo/image/article/1112885395/congratulations.png" alt="congratulations"></p>
 <p>部署好的模板项目是 Hexo 默认的主题，需要将 Github 对应的项目下载到本地进行修改。项目想要在本地进行运行，需要<strong>安装相关依赖</strong>，通过<code>npm install</code> 或 <code>cnpm install</code> 或<code>yarn install</code>皆可进行安装。依赖安装完成后，即可进行主题安装等相关操作。</p>
 <p>2.通过 GitHub 托管 <code>hexo deploy</code> 生成的网页文件进行部署。</p>
 <p>创建新的项目，选择 <strong>Import Git Repository</strong>，然后选择 Hexo 网站对应的仓库，点击 <strong>Import</strong>。</p>
-<p><img src="/image/article/1112885395/import.png" alt="import"></p>
+<p><img src="/Hexo/image/article/1112885395/import.png" alt="import"></p>
 <p>跳转到 <strong>Configure Project</strong> 页面，项目名称可以自行修改，其他的自定义选项，<strong>建议不要修改</strong>，除非有什么特殊需求。</p>
-<p><img src="/image/article/1112885395/configure.png" alt="configure"></p>
+<p><img src="/Hexo/image/article/1112885395/configure.png" alt="configure"></p>
 <p>点击 <strong>Deploy</strong>，然后等待部署完成即可。部署完成后，Vercel 会提供几个默认的域名，可以在对应项目中查看。</p>
 <h4 id="Vercel-自定义域名"><a href="#Vercel-自定义域名" class="headerlink" title="Vercel 自定义域名"></a>Vercel 自定义域名</h4><p>进入到 Vercel 的 <strong>Dashboard</strong>，然后点击对应项目，然后点击 <strong>View Domains</strong>，进入到项目的 <strong>Domains</strong> 界面，在这里可以进行域名管理。如果想要使用 Vercel 提供的二级域名，可以直接添加 <code>xxx.vercel.app</code>；如果想要绑定自己的域名，在添加域名后，会提示 <strong>Invalid Config</strong>，需要添加 DNS 解析。</p>
 <h4 id="Vercel-DNS-解析"><a href="#Vercel-DNS-解析" class="headerlink" title="Vercel DNS 解析"></a>Vercel DNS 解析</h4><p>1.如果是根域名，请在你的 DNS 解析处添加 <strong>A 记录</strong>，指向 <code>76.76.21.21</code>。</p>
 <p>2.如果是子域名，请在你的 DNS 解析处添加 <strong>CNAME 记录</strong>，指向 <code>cname.vercel-dns.com</code>。</p>
 <p>添加 DNS 解析记录之后，在 <strong>Vercel Domains</strong> 界面对应域名下方显示对号即表明验证成功。</p>
-<p><img src="/image/article/1112885395/invalid.png" alt="invalid"></p>
+<p><img src="/Hexo/image/article/1112885395/invalid.png" alt="invalid"></p>
 <blockquote>
 <p>特别说明 Github 仓库的分支尽量选择 <strong>master</strong>，否则 Github 推送之后，还需到 Vercel 手动部署项目。</p>
 </blockquote>
@@ -202,7 +202,7 @@
 <h3 id="关于-Waline"><a href="#关于-Waline" class="headerlink" title="关于 Waline"></a>关于 Waline</h3><p>Valine 评论功能简单，不支持评论管理以及通知功能，虽说可以通过 <a target="_blank" rel="noopener" href="https://github.com/DesertsP/Valine-Admin">Valine-Admin</a> 实现评论管理以及通知等功能，但非常麻烦。其他的评论系统有些需要服务器，例如 Artalk。所以选择集成了 Waline，通过在 Vercel 部署以达到无需服务器的目的。如果考虑到 <strong>访问速度</strong> 的问题，可以选择部署在 <strong>华为云</strong> 的 Serverless 上，每个月都有免费的资源。</p>
 <h3 id="关于-Vercel"><a href="#关于-Vercel" class="headerlink" title="关于 Vercel"></a>关于 Vercel</h3><p>Github Pages 内容部署的服务器在美国，可能会导致国内部分地区加载速度较慢，大家可以将项目部署到 <strong>Vercel</strong> ，来提高网站的访问速度，同时也 <strong>方便百度对站点内容进行收录</strong> 。如果 <strong>网站域名已经备案</strong> ，则可以考虑 <strong>国内的阿里云或腾讯云的相关产品</strong> ，效果会更好。<br>目前 Vercel 提供的默认 <code>.app</code> 域名由于 <strong>DNS 污染</strong> 国内无法访问，<strong>需要添加自己的域名（无需备案）</strong>。</p>
 <h3 id="Cannot-read-property-‘LongCang’-of-undefined"><a href="#Cannot-read-property-‘LongCang’-of-undefined" class="headerlink" title="Cannot read property ‘LongCang’ of undefined"></a>Cannot read property ‘LongCang’ of undefined</h3><p>这个问题比较常见，是主题文件路径不正确导致的。因为很多小伙伴都询问这个问题，所以在这里进行一个说明。    </p>
-<p><img src="/image/article/1112885395/structure.png" alt="Hexo-LiveForCode"></p>
+<p><img src="/Hexo/image/article/1112885395/structure.png" alt="Hexo-LiveForCode"></p>
 <p>直接从 Github 下载 <code>Zip</code> 格式的文件解压后或 Github <code>Clone</code> 后的文件结构应该如上图所示。这里需要注意，是将解压后文件夹中的 <code>LiveForCode</code> 文件夹复制到 <code>Hexo</code> 的 <code>themes</code> 文件夹下，而不是将解压后的 <code>Hexo-LiveForCode</code> 复制到 <code>themes</code> 文件夹下。</p>
 <h3 id="标签、分类、归档等页面-404-或-Cannot-GET"><a href="#标签、分类、归档等页面-404-或-Cannot-GET" class="headerlink" title="标签、分类、归档等页面 404 或 Cannot GET"></a>标签、分类、归档等页面 <code>404</code> 或 <code>Cannot GET</code></h3><p>由于 <code>Hexo</code> 的标签、分类、归档等页面的目录修改为了 <code>tag</code>、<code>category</code>、<code>archive</code>，故使用默认的 <strong>站点配置文件</strong> 会出现这个问题。需要将 <strong>站点配置文件</strong> 中的 <code>Directory</code> 相关配置修改为：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">tag_dir:</span> <span class="string">tag</span></span><br><span class="line"><span class="attr">archive_dir:</span> <span class="string">archive</span></span><br><span class="line"><span class="attr">category_dir:</span> <span class="string">category</span></span><br></pre></td></tr></table></figure>
@@ -251,7 +251,7 @@
     <div class="suffix-box-right">
         <span class="suffix-box-title">文章作者：</span>aloneme
         <br>
-        <span class="suffix-box-title">文章出处：</span><a href="/posts/1112885395/" target="_blank">Hexo主题LiveForCode介绍</a>
+        <span class="suffix-box-title">文章出处：</span><a href="/Hexo/posts/1112885395/" target="_blank">Hexo主题LiveForCode介绍</a>
         <br>
         <span class="suffix-box-title">作者签名：</span>简单地活着, 肆意又精彩.
         <br>
@@ -266,7 +266,7 @@
                     <div class="category">
                         分类：
                         
-                            <a href="/categories/Web/">Web</a>
+                            <a href="/Hexo/categories/Web/">Web</a>
                         
                     </div>
                 
@@ -274,17 +274,17 @@
                     <div class="tag">
                         标签：
                         
-                            <a href="/tags/Hexo/">Hexo</a>
+                            <a href="/Hexo/tags/Hexo/">Hexo</a>
                         
                     </div>
                 
                 <div class="article-prev-next">
                     
-                        <a href="/posts/90504101/" class="prev-prefix">« </a> 上一篇：    <a href="/posts/90504101/" title="发布于 2023-08-31 03:48">Linux工具安装</a>
+                        <a href="/Hexo/posts/90504101/" class="prev-prefix">« </a> 上一篇：    <a href="/Hexo/posts/90504101/" title="发布于 2023-08-31 03:48">Linux工具安装</a>
                         <br>
                     
                     
-                        <a href="/posts/1243066710/" class="next-prefix">» </a> 下一篇：    <a href="/posts/1243066710/" title="发布于 2020-01-01 12:00">Hello World</a>
+                        <a href="/Hexo/posts/1243066710/" class="next-prefix">» </a> 下一篇：    <a href="/Hexo/posts/1243066710/" title="发布于 2020-01-01 12:00">Hello World</a>
                     
                 </div>
             </div>
